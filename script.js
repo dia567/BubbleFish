@@ -106,7 +106,7 @@ const bubblesArray = [];
     }
 }
 const sond = document.createElement('audio');
-sond.src = 'sond1.mp4'
+sond.src = 'bubbles-single2.wav'
  function handleBubble(){
     if(gameFrame %50 == 0 ){
         bubblesArray.push(new Bubble());
